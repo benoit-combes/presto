@@ -1,0 +1,1394 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cm",
+				"cmd_list	statement"
+			],
+			[
+				"yaml",
+				"yaml_string	param"
+			],
+			[
+				"ya",
+				"yaml_string	param"
+			],
+			[
+				"to",
+				"to_evaluate	param"
+			],
+			[
+				"from",
+				"from_yaml	function"
+			],
+			[
+				"ma",
+				"match_dolls	statement"
+			],
+			[
+				"log",
+				"logging	module"
+			],
+			[
+				"scope",
+				"SCOPE_1"
+			],
+			[
+				"so",
+				"soda_yaml"
+			],
+			[
+				"str",
+				"string	param"
+			],
+			[
+				"pipe",
+				"pipe_step_doc"
+			],
+			[
+				"fil",
+				"files	forflow"
+			],
+			[
+				"file",
+				"files_for_scope	statement"
+			],
+			[
+				"all",
+				"all_evaluated	statement"
+			],
+			[
+				"S",
+				"_SERIES"
+			],
+			[
+				"c",
+				"clean"
+			],
+			[
+				"scop",
+				"scoped_expr	statement"
+			],
+			[
+				"sta",
+				"state_filename	statement"
+			],
+			[
+				"err",
+				"error	function"
+			],
+			[
+				"ATL",
+				"ATLAS_DTI_MASK"
+			],
+			[
+				"DTI",
+				"DTI_brain_masked"
+			],
+			[
+				"TRANSFO_AD",
+				"TRANSFO_ADC_aff_on_DTI_ATLAS"
+			],
+			[
+				"LO",
+				"LOCK	statement"
+			],
+			[
+				"fut",
+				"futures_	statement"
+			],
+			[
+				"st",
+				"state_filename	statement"
+			],
+			[
+				"Ke",
+				"KeyError	class"
+			],
+			[
+				"wr",
+				"write	function"
+			],
+			[
+				"Str",
+				"stream	statement"
+			],
+			[
+				"ser",
+				"series	statement"
+			],
+			[
+				"pat",
+				"patients	statement"
+			],
+			[
+				"sub",
+				"submit_process	function"
+			],
+			[
+				"MAXW",
+				"MAXWORKERS	statement"
+			],
+			[
+				"retur",
+				"return_code	statement"
+			],
+			[
+				"stat",
+				"states	statement"
+			],
+			[
+				"SODA",
+				"SODA_STATE_DIR	statement"
+			],
+			[
+				"f",
+				"flush	function"
+			],
+			[
+				"pro",
+				"progression	statement"
+			],
+			[
+				"id",
+				"id_	statement"
+			],
+			[
+				"futu",
+				"futur_for_patient	statement"
+			],
+			[
+				"ca",
+				"call_process	function"
+			],
+			[
+				"eva",
+				"evaluated_value	statement"
+			],
+			[
+				"lo",
+				"logging	module"
+			],
+			[
+				"eval",
+				"evaluated_value	statement"
+			],
+			[
+				"mat",
+				"match_eval	statement"
+			],
+			[
+				"SER",
+				"SERIES	statement"
+			],
+			[
+				"ST",
+				"STUDIES	statement"
+			],
+			[
+				"de",
+				"debug	function"
+			],
+			[
+				"ex",
+				"exit	function"
+			],
+			[
+				"wa",
+				"warning	function"
+			],
+			[
+				"r",
+				"remove	function"
+			],
+			[
+				"renam",
+				"renames	function"
+			],
+			[
+				"rena",
+				"rename	function"
+			],
+			[
+				"adcG",
+				"AdcNawmG1Writer	statement"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"les",
+				"lesOr	statement"
+			],
+			[
+				"flai",
+				"flairOr	statement"
+			],
+			[
+				"exi",
+				"exist_ok	False"
+			],
+			[
+				"make",
+				"makedirs	function"
+			],
+			[
+				"pa",
+				"path	module"
+			],
+			[
+				"cop",
+				"copy	function"
+			],
+			[
+				"ds",
+				"dest	statement"
+			],
+			[
+				"sr",
+				"serdesc	statement"
+			],
+			[
+				"md",
+				"mdir	statement"
+			],
+			[
+				"is",
+				"isdir	import"
+			],
+			[
+				"cs",
+				"csvFile	param"
+			],
+			[
+				"fa",
+				"faInLesionsT1G1Writer	statement"
+			],
+			[
+				"grou",
+				"groupsReader	statement"
+			],
+			[
+				"g",
+				"groupsFile	statement"
+			],
+			[
+				"re",
+				"reader	function"
+			],
+			[
+				"s",
+				"search	function"
+			],
+			[
+				"yamlL",
+				"yamlListnerPort	statement"
+			],
+			[
+				"yamlLi",
+				"yamlListnerPort	statement"
+			],
+			[
+				"dic",
+				"dicomDir	statement"
+			],
+			[
+				"yamlPa",
+				"yamlPacsAET	statement"
+			],
+			[
+				"yamlP",
+				"yamlPacsPort	statement"
+			],
+			[
+				"dicom",
+				"dicomPath	statement"
+			],
+			[
+				"tmp",
+				"tmpDir	statement"
+			],
+			[
+				"tm",
+				"tmpDir	statement"
+			],
+			[
+				"seP",
+				"seriePath	statement"
+			],
+			[
+				"seri",
+				"serie	forflow"
+			],
+			[
+				"stuI",
+				"studyInstanceUID	statement"
+			],
+			[
+				"co",
+				"copyfile	function"
+			],
+			[
+				"query",
+				"queryCmd	statement"
+			],
+			[
+				"retr",
+				"retrieveCmd	statement"
+			],
+			[
+				"yamlStu",
+				"yamlStudy	forflow"
+			],
+			[
+				"yamlSequ",
+				"yamlSequence	forflow"
+			],
+			[
+				"seriI",
+				"seriesInstanceUIDforDescription	statement"
+			],
+			[
+				"cmdli",
+				"cmdline	statement"
+			],
+			[
+				"Stu",
+				"StudyUID"
+			],
+			[
+				"retri",
+				"retrieveSeries	function"
+			],
+			[
+				"stud",
+				"studyDir	statement"
+			],
+			[
+				"corr",
+				"correctStudy	statement"
+			],
+			[
+				"yamlSt",
+				"yamlStudyDate	statement"
+			],
+			[
+				"stu",
+				"studyUID	statement"
+			],
+			[
+				"pati",
+				"patientSex	statement"
+			],
+			[
+				"patie",
+				"patientBirthDate	statement"
+			],
+			[
+				"repo",
+				"reportingWriter	statement"
+			],
+			[
+				"yamlStud",
+				"yamlStudyDate	statement"
+			],
+			[
+				"sd",
+				"sdLog	function"
+			],
+			[
+				"pr",
+				"print	function"
+			],
+			[
+				"patI",
+				"patientInfo	forflow"
+			],
+			[
+				"pacs",
+				"pacsInfo	statement"
+			],
+			[
+				"soda",
+				"sdLoadYaml"
+			],
+			[
+				"wri",
+				"writerow"
+			],
+			[
+				"w",
+				"writer	function"
+			],
+			[
+				"STUD",
+				"studiesFound	statement"
+			],
+			[
+				"Patien",
+				"patientBirthDate"
+			],
+			[
+				"gr",
+				"group	function"
+			],
+			[
+				"shn",
+				"shnrPort"
+			],
+			[
+				"chck",
+				"check_output	function"
+			],
+			[
+				"max",
+				"max_workers	param"
+			],
+			[
+				"for",
+				"format	function"
+			],
+			[
+				"yam",
+				"yamlData	statement"
+			],
+			[
+				"fom",
+				"formated	statement"
+			],
+			[
+				"dt",
+				"dti_im	statement"
+			],
+			[
+				"xml",
+				"xml_tr	statement"
+			],
+			[
+				"xm",
+				"xml_tr	statement"
+			],
+			[
+				"TR",
+				"TRANSFO_XML	statement"
+			],
+			[
+				"M",
+				"M12"
+			],
+			[
+				"M0",
+				"M0_FOLDER	statement"
+			],
+			[
+				"RE",
+				"RELAXO_T1	statement"
+			],
+			[
+				"T",
+				"T1_on_a9_bal	statement"
+			],
+			[
+				"T1",
+				"T1_on_a9_aff"
+			],
+			[
+				"tra",
+				"transf_t1_xml	statement"
+			],
+			[
+				"B",
+				"B1_img	statement"
+			],
+			[
+				"ttk",
+				"ttkutils	statement"
+			],
+			[
+				"trT",
+				"trT2xml	statement"
+			],
+			[
+				"img",
+				"imgp	statement"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "# Soda\n\nSoda provides a little framework that aim to ease the writing of complex pipeline. It has originally written for medical imaging processing purpose but can be used in any other domain. \n\nIt has been tested only on Linux so far, it probably workes on other Unix system, but not on Windows.\n\nIt requires to know python [regular expression](https://docs.python.org/3/library/re.html) and the [yaml](http://yaml.org/spec/1.1/#id857168) syntax for configuration files.\n\n### Features:\n\n- Meta representation of the data to process and pipelines. \n- Parallelism of each step of the pipeline over a number of maximum worker.\n- Logging of the state of the whole process\n- Interruption / resume of the whole process\n\n### Usage:\n\nIn order to use soda you first have to write a yaml configuration file that will describe how your data/files? are organised on your computer.\n\nThen you can write another yaml file to describe the different step of your pipeline or use one already written. \n\nOnce those file are written you are ready to launch the pipeline.\n\n##### Let's take an example:\nWe have the T1 and T2 contrasted MRI image of the brain of 2 patients at 3 timepoint. \n\nThe goal of the pipeline is to denoised each of the images and then register the T1 images of the timepoints 2, and 3 on the T1 image of the first one.\n\nour data are  store like this:\n\n>workspace/\n├── patient_1\n│   ├── timepoint_1\n│   │   ├── T1.nrrd\n│   │   └── T2.nrrd\n│   ├── timepoint_2\n│   │   ├── T1.nrrd\n│   │   └── T2.nrrd\n│   └── timepoint_3\n│       ├── T1.nrrd\n│       └── T2.nrrd\n└── patient_2\n    ├── timepoint_1\n    │   ├── T1.nrrd\n    │   └── T2.nrrd\n    ├── timepoint_2\n    │   ├── T1.nrrd\n    │   └── T2.nrrd\n    └── timepoint_3\n        ├── T1.nrrd\n\nTo get representaion of your data Soda use a mechanism of scopes. So,  \n>describe  how your data/files? are organised on your computer\n\nmeans tell to Soda where are store your files and how it can be \"scoped\". \n\nTo acheive this the first thing to do is give the root directory of all our data. In our cas it is /workspace.\n\nIn a file \"data_struct.yaml\" we write:\n```yaml\n# ############################################################################\n# MANDATORY --> __ROOT__ path\n# ############################################################################\n\n__ROOT__: /workspace/\n```\n\nAll keys in the yaml documants that are prefixed and suffixed by tow underscores are mandatory for the proper functioning of Soda.\nThe value of the \\_\\_ROOT\\_\\_ key, and any other key is a regular expression.\n\nWe now have to tell what are our scopes. In our case we first want to denoised all the images so the first scope that naturally comes in head is the set that include all the images which are nrrd files.\n\nWe had to the \"data_struct.yaml\" file:\n```yaml\n# ############################################################################\n# MANDATORY --> __SCOPES__ structure\n# ############################################################################\n__SCOPES__:\n  IMAGE: .*\\.nrrd\n```\n\n\\_\\_SCOPES\\_\\_ is a key which takes as value a dictionnary where is key is the name of a scope and each associated value is a regular expression used to identify the scope. \n\nTo identify the scope Soda list all the files inside the the root directory and keep the set of path that match the corresponding regular expression. \n\nIn the case of our IMAGE scope we want to match all The images. The set representing the scope will be simply the list of those files:\n```py\n{\n    'workspace/patient_2/timepoint_2/T1.nrrd',\n    'workspace/patient_2/timepoint_2/T2.nrrd',\n    'workspace/patient_2/timepoint_1/T1.nrrd',\n    'workspace/patient_2/timepoint_1/T2.nrrd',\n    'workspace/patient_2/timepoint_3/T1.nrrd',\n    'workspace/patient_2/timepoint_3/T2.nrrd',\n    'workspace/patient_1/timepoint_2/T1.nrrd',\n    'workspace/patient_1/timepoint_2/T2.nrrd',\n    'workspace/patient_1/timepoint_1/T1.nrrd',\n    'workspace/patient_1/timepoint_1/T2.nrrd',\n    'workspace/patient_1/timepoint_3/T1.nrrd',\n    'workspace/patient_1/timepoint_3/T2.nrrd',\n}\n```\n\nWe know want to tell which scopes will be used for the registration step.\nWe want to register the T1 of the timepoint 2 and 3, so we need a scope that will return the following set:\n\n```py\n{\n    'workspace/patient_1/timepoint_2/',\n    'workspace/patient_1/timepoint_3/',\n    'workspace/patient_2/timepoint_2/',\n    'workspace/patient_2/timepoint_3/',\n}\n```\n\nIn order to do this we complete \"data_struct.yaml\" to add a new scope T1_TO_REGISTER wich will match the list above.\n```yaml\n__SCOPES__:\n  IMAGE: .*\\.nrrd\n  T1_TO_REGISTER: .*timepoint_(?!0)\\d/\n```\n\nWe feel like if we have all of what we want so we will now start to write our pipeline. \n\nThe pipeline is describe inside a yaml file, each yaml document (yaml document are separated by '---') is a step of te pipeline\n\nEach step must have the following keys:\n\n\nThe denoising process is perform using an ewecuatable called my_denoising\n\n```yaml\n# ############################################################################\n# MANDATORY --> __SCOPES__ structure\n# ############################################################################\n\n# SCOPES\n# PATIENTS: ${__ROOT__}\\d\\d-\\d\\d\\d/\nPATIENTS: ${__ROOT__}13-002/\nSTUDY_REF: ${PATIENTS}M00_.*?/\nNO_STUDY_REF: ${PATIENTS}M(?!00).*?/\nSTUDIES: (${STUDY_REF}|${NO_STUDY_REF})\n\n__SCOPES__:\n  __ROOT__: ${__ROOT__}\n  PATIENTS: ${PATIENTS}\n  STUDY_REF: ${STUDY_REF}\n  NO_STUDY_REF: ${NO_STUDY_REF}\n  STUDIES: ${STUDIES}\n  ```\n\n",
+			"file": "README.md",
+			"file_size": 5330,
+			"file_write_time": 130725498356127331,
+			"settings":
+			{
+				"buffer_size": 5482,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/rdebroiz/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+			"settings":
+			{
+				"buffer_size": 1155,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "soda.py",
+			"settings":
+			{
+				"buffer_size": 9156,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "soda_process/soda_process.py",
+			"settings":
+			{
+				"buffer_size": 4357,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "soda_yaml/test_expression_evaluation.py",
+			"settings":
+			{
+				"buffer_size": 3725,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Sample Markdown Cheat Sheet\n=========================== \n\nThis is a sample markdown file to help you write Markdown quickly :)\n\nIf you use the fabulous [Sublime Text 2/3 editor][ST] along with the [Markdown Preview plugin][MarkdownPreview], open your ST2 Palette with `CMD+⇧+P` then choose `Markdown Preview in browser` to see the result in your browser.\n\n## Text basics\nthis is *italic* and this is **bold** .  another _italic_ and another __bold__\n\nthis is `important` text. and percentage signs : % and `%`\n\nThis is a paragraph with a footnote (builtin parser only). [^note-id]\n\nInsert `[ TOC ]` without spaces to generate a table of contents (builtin parsers only).\n\n## Indentation\n> Here is some indented text\n>> even more indented\n\n## Titles\n# Big title (h1)\n## Middle title (h2)\n### Smaller title (h3)\n#### and so on (hX)\n##### and so on (hX)\n###### and so on (hX)\n\n## Example lists (1)\n\n - bullets can be `-`, `+`, or `*`\n - bullet list 1\n - bullet list 2\n    - sub item 1\n    - sub item 2\n\n        with indented text inside\n\n - bullet list 3\n + bullet list 4\n * bullet list 5\n\n## Links\n\nThis is an [example inline link](http://lmgtfy.com/) and [another one with a title](http://lmgtfy.com/ \"Hello, world\").\n\nLinks can also be reference based : [reference 1][ref1] or [reference 2 with title][ref2].\n\nReferences are usually placed at the bottom of the document\n\n## Images\n\nA sample image :\n\n![revolunet logo](http://www.revolunet.com/static/parisjs8/img/logo-revolunet-carre.jpg \"revolunet logo\")\n\nAs links, images can also use references instead of inline links :\n\n![revolunet logo][revolunet-logo]\n\n\n## Code\n\nIt's quite easy to show code in markdown files.\n\nBackticks can be used to `highlight` some words.\n\nAlso, any indented block is considered a code block.  If `enable_highlight` is `true`, syntax highlighting will be included (for the builtin parser - the github parser does this automatically).\n\n    <script>\n        document.location = 'http://lmgtfy.com/?q=markdown+cheat+sheet';\n    </script>\n\n## Math\n\nWhen `enable_mathjax` is `true`, inline math can be included \\\\(\\frac{\\pi}{2}\\\\) $\\pi$\n\nAlternatively, math can be written on its own line:\n\n$$F(\\omega) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(t) \\, e^{ - i \\omega t}dt$$\n\n\\\\[\\int_0^1 f(t) \\mathrm{d}t\\\\]\n\n\\\\[\\sum_j \\gamma_j^2/d_j\\\\]\n\n\n\n## GitHub Flavored Markdown\n\nIf you use the Github parser, you can use some of [Github Flavored Markdown][gfm] syntax :\n\n * User/Project@SHA: revolunet/sublimetext-markdown-preview@7da61badeda468b5019869d11000307e07e07401\n * User/Project#Issue: revolunet/sublimetext-markdown-preview#1\n * User : @revolunet\n\nSome Python code :\n\n```python\nimport random\n\nclass CardGame(object):\n    \"\"\" a sample python class \"\"\"\n    NB_CARDS = 32\n    def __init__(self, cards=5):\n        self.cards = random.sample(range(self.NB_CARDS), 5)\n        print 'ready to play'\n```\n\nSome Javascript code :\n\n```js\nvar config = {\n    duration: 5,\n    comment: 'WTF'\n}\n// callbacks beauty un action\nasync_call('/path/to/api', function(json) {\n    another_call(json, function(result2) {\n        another_another_call(result2, function(result3) {\n            another_another_another_call(result3, function(result4) {\n                alert('And if all went well, i got my result :)');\n            });\n        });\n    });\n})\n```\n\nThe Github Markdown also brings some [nice Emoji support][emoji] : :+1: :heart: :beer:\n\n[^note-id]: This is the text of the note. \n\n## Parsers and Extensions\n\nMarkdown Preview comes with **Python-Markdown** preloaded.\n\n### *Python-Markdown*\n\nThe [Python-Markdown Parser][] provides support for several extensions.\n\n[Python-Markdown Parser]: https://github.com/waylan/Python-Markdown\n\n#### Extra Extensions\n\n* `abbr` -- [Abbreviations][]\n* `attr_list` -- [Attribute Lists][]\n* `def_list` -- [Definition Lists][]\n* `fenced_code` -- [Fenced Code Blocks][]\n* `footnotes` -- [Footnotes][]\n* `tables` -- [Tables][]\n* `smart_strong` -- [Smart Strong][]\n\n[Abbreviations]: http://pythonhosted.org/Markdown/extensions/abbreviations.html\n[Attribute Lists]: http://pythonhosted.org/Markdown/extensions/attr_list.html\n[Definition Lists]: http://pythonhosted.org/Markdown/extensions/definition_lists.html\n[Fenced Code Blocks]: http://pythonhosted.org/Markdown/extensions/fenced_code_blocks.html\n[Footnotes]: http://pythonhosted.org/Markdown/extensions/footnotes.html\n[Tables]: http://pythonhosted.org/Markdown/extensions/tables.html\n[Smart Strong]: http://pythonhosted.org/Markdown/extensions/smart_strong.html\n\n\nYou can enable them all at once using the `extra` keyword.\n\n    extensions: [ 'extra' ]\n\nIf you want all the extras plus the `toc` extension,\nyour settings would look like this:\n\n    {\n        ...\n        parser: 'markdown',\n        extensions: ['extra', 'toc'],\n        ...\n    }\n\n\n#### Other Extensions\n\nThere are also some extensions that are not included in Markdown Extra\nbut come in the standard Python-Markdown library.\n\n* `code-hilite` -- [CodeHilite][]\n* `html-tidy` -- [HTML Tidy][]\n* `header-id` -- [HeaderId][]\n* `meta_data` -- [Meta-Data][]\n* `nl2br` -- [New Line to Break][]\n* `rss` -- [RSS][]\n* `sane_lists` -- [Sane Lists][]\n* `smarty` -- [Smarty][]\n* `toc` -- [Table of Contents][]\n* `wikilinks` -- [WikiLinks][]\n\n[CodeHilite]:  http://pythonhosted.org/Markdown/extensions/code_hilite.html\n[HTML Tidy]:  http://pythonhosted.org/Markdown/extensions/html_tidy.html\n[HeaderId]:  http://pythonhosted.org/Markdown/extensions/header_id.html\n[Meta-Data]:  http://pythonhosted.org/Markdown/extensions/meta_data.html\n[New Line to Break]:  http://pythonhosted.org/Markdown/extensions/nl2br.html\n[RSS]:  http://pythonhosted.org/Markdown/extensions/rss.html\n[Sane Lists]:  http://pythonhosted.org/Markdown/extensions/sane_lists.html\n[Table of Contents]:  http://pythonhosted.org/Markdown/extensions/toc.html\n[WikiLinks]:  http://pythonhosted.org/Markdown/extensions/wikilinks.html\n[Smarty]: https://pythonhosted.org/Markdown/extensions/smarty.html\n\n#### 3rd Party Extensions\n\n*Python-Markdown* is designed to be extended.\n\nSome included ones are:\n\n* `delete` -- github style delte support via `~~word~~`\n* `githubemoji` --  github emoji support\n* `tasklist` -- github style tasklists\n* `magiclink` -- github style auto link conversion of http|ftp links\n* `headeranchor` -- github style header anchor links\n* `github` -- Adds the above extensions in one shot\n* `b64` -- convert and embed local images to base64.  Setup by adding this `b64(base_path=${BASE_PATH})`\n\nThere are also a number of others available:\n\nJust fork this repo and add your extensions inside the `.../Packages/Markdown Preview/markdown/extensions/` folder.\n\nCheck out the list of [3rd Party extensions](\nhttps://github.com/waylan/Python-Markdown/wiki/Third-Party-Extensions).\n\n\n#### Default Extensions\n\nThe default extensions are:\n\n* `footnotes` -- [Footnotes]\n* `toc` -- [Table of Contents]\n* `fenced_code` -- [Fenced Code Blocks] \n* `tables` -- [Tables]\n\nUse the `default` keyword, to select them all.\nIf you want all the defaults plus the `definition_lists` extension,\nyour settings would look like this:\n\n    {\n        ...\n        parser: 'markdown',\n        extensions: ['default', 'definition_lists'],\n        ...\n    }\n\n## Examples\n\n### Tables\n\nThe `tables` extension of the *Python-Markdown* parser is activated by default,\nbut is currently **not** available in *Markdown2*.\n\nThe syntax was adopted from the [php markdown project](http://michelf.ca/projects/php-markdown/extra/#table),\nand is also used in github flavoured markdown.\n\n| Year | Temperature (low) | Temperature (high) |  \n| ---- | ----------------- | -------------------|  \n| 1900 |               -10 |                 25 |  \n| 1910 |               -15 |                 30 |  \n| 1920 |               -10 |                 32 |  \n\n\n### Wiki Tables\n\nIf you are using *Markdown2* with the `wiki-tables` extra activated you should see a table below:\n\n|| *Year* || *Temperature (low)* || *Temperature (high)* ||  \n||   1900 ||                 -10 ||                   25 ||  \n||   1910 ||                 -15 ||                   30 ||  \n||   1920 ||                 -10 ||                   32 ||  \n\n\n### Definition Lists\n\nThis example requires *Python Markdown*'s `def_list` extension.\n\nApple\n:   Pomaceous fruit of plants of the genus Malus in \n    the family Rosaceae.\n\nOrange\n:   The fruit of an evergreen tree of the genus Citrus.\n\n\n## About\n\nThis plugin and this sample file is proudly brought to you by the [revolunet team][revolunet]\n\n [ref1]: http://revolunet.com\n [ref2]: http://revolunet.com \"rich web apps\"\n [MarkdownREF]: http://daringfireball.net/projects/markdown/basics\n [MarkdownPreview]: https://github.com/revolunet/sublimetext-markdown-preview\n [ST]: http://sublimetext.com\n [revolunet]: http://revolunet.com\n [revolunet-logo]: http://www.revolunet.com/static/parisjs8/img/logo-revolunet-carre.jpg \"revolunet logo\"\n [gfm]: http://github.github.com/github-flavored-markdown/\n [emoji]: http://www.emoji-cheat-sheet.com/\n\n",
+			"settings":
+			{
+				"buffer_size": 8996,
+				"line_ending": "Unix",
+				"name": "Markdown Cheatsheet",
+				"scratch": true
+			}
+		},
+		{
+			"file": "soda_yaml/soda_yaml.py",
+			"settings":
+			{
+				"buffer_size": 6696,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "soda.log",
+			"settings":
+			{
+				"buffer_size": 8349,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tests_data/pipes/test_data_struct.yaml",
+			"settings":
+			{
+				"buffer_size": 1328,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "previe",
+		"selected_items":
+		[
+			[
+				"previe",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"perm",
+				"Permute Lines: Unique"
+			],
+			[
+				"permu",
+				"Permute Lines: Unique"
+			],
+			[
+				"per",
+				"Permute Lines: Unique"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTA",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"insta	",
+				"Package Control: Install Package"
+			],
+			[
+				"j",
+				"Set Syntax: Java"
+			],
+			[
+				"CM",
+				"Set Syntax: CMakeEditor"
+			]
+		],
+		"width": 549.0
+	},
+	"console":
+	{
+		"height": 296.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/rdebroiz/soda",
+		"/home/rdebroiz/soda/soda_clean",
+		"/home/rdebroiz/soda/soda_process",
+		"/home/rdebroiz/soda/soda_yaml",
+		"/home/rdebroiz/soda/tests_data",
+		"/home/rdebroiz/soda/tests_data/pipes"
+	],
+	"file_history":
+	[
+		"/home/rdebroiz/.config/sublime-text-3/Packages/User/Markdown (Standard).sublime-settings",
+		"/home/rdebroiz/soda/README.md",
+		"/home/rdebroiz/soda/tests/test_expression_evaluation.py",
+		"/home/rdebroiz/soda/soda.sublime-project",
+		"/home/rdebroiz/soda/soda.sublime-workspace",
+		"/media/rdebroiz/pink-ext4/pipes/dti.yaml",
+		"/media/rdebroiz/pink-ext4/pipes/pipe.yaml",
+		"/media/rdebroiz/pink-ext4/pipes/backup/dti_mask2.yaml",
+		"/home/rdebroiz/anima/src/soda/soda.log",
+		"/home/rdebroiz/soda/soda_process/soda_process.py",
+		"/home/rdebroiz/soda/tests/pipes/test_data_struct.yaml",
+		"/home/rdebroiz/soda/soda_clean/soda_clean.py",
+		"/home/rdebroiz/soda/soda.log",
+		"/home/rdebroiz/soda/tests/pipes/failure_case_test_pipe.yaml",
+		"/home/rdebroiz/soda/tests/pipes/success_case_test_pipe.yaml",
+		"/home/rdebroiz/soda/soda.py",
+		"/home/rdebroiz/soda/soda_yaml/soda_yaml.py",
+		"/home/rdebroiz/anima/src/math-tools/common_tools/CMakeLists.txt",
+		"/media/rdebroiz/pink-ext4/msspi/workspace/13-002/M00_20131106/DWI/13-002-M00_DWI.bvec",
+		"/home/rdebroiz/anima/src/math-tools/transformations/animaReorientation.h",
+		"/media/rdebroiz/pink-ext4/msspi/workspace/13-002/M00_20131106/DWI/13-002-M00_DWI-Yswap.bvec",
+		"/home/rdebroiz/soda/tests/pipes/echo_test_pipe.yaml",
+		"/home/rdebroiz/soda/tests/pipes/folder_nested.yaml",
+		"/home/rdebroiz/soda/tests/pipes/wrong_echo_test_pipe.yaml",
+		"/home/rdebroiz/soda/LICENSE",
+		"/home/rdebroiz/soda/.soda/echo_test_folder_nested.yaml",
+		"/home/rdebroiz/soda/.gitignore",
+		"/home/rdebroiz/soda/tests/test_folder_nested/P_01/STUDY_1/ric",
+		"/home/rdebroiz/soda/tests/test_folder_nested/P_01/STUDY_1/roll",
+		"/home/rdebroiz/soda/tests/test_folder_nested/P_01/STUDY_A/ric",
+		"/home/rdebroiz/soda/tests/test_folder_nested/P_01/STUDY_A/roll",
+		"/home/rdebroiz/soda/.soda/echo_hello_world.yaml",
+		"/home/rdebroiz/tmp/b/b.py",
+		"/home/rdebroiz/tmp/a.py",
+		"/home/rdebroiz/soda/pipes/flair.yaml",
+		"/home/rdebroiz/soda/soda_tests/pipes/test_folder_nested.yaml",
+		"/home/rdebroiz/.bashrc",
+		"/home/rdebroiz/soda/yaml/Syaml.py",
+		"/home/rdebroiz/soda/clean/Sclean.py",
+		"/home/rdebroiz/soda/process/Sprocess.py",
+		"/home/rdebroiz/soda/clean.py",
+		"/home/rdebroiz/tmp/test_imports/top_module.py",
+		"/home/rdebroiz/tmp/test_imports/package_tout_en_haut/sous_module.py",
+		"/home/rdebroiz/tmp/test_imports/package_tout_en_haut/autre_sous_package/autre_module_en_bas.py",
+		"/tmp/ms_irisa.xml",
+		"/home/rdebroiz/anima/src/soda/test.yaml",
+		"/media/rdebroiz/pink-ext4/uspio-atlas/dti-space/ADC/ADC.txt",
+		"/media/rdebroiz/pink-ext4/uspio-atlas/dti-space/FA/FA.txt",
+		"/media/rdebroiz/pink-ext4/uspio-atlas/scalar-space/FLAIR/FLAIR-normalized.txt",
+		"/media/rdebroiz/pink-ext4/trsf_testt.xml",
+		"/media/rdebroiz/pink-ext4/msspi/workspace/13-002/M00_20131106/transformations/13-002-M00_TRANSFO-FLAIR-serie-on-SCALAR-ATLAS.xml",
+		"/home/rdebroiz/anima/src/soda/.soda/apply_serie_transfo_m12zscore_flair_to_m00flair.yaml",
+		"/home/rdebroiz/anima/src/soda/.soda/apply_serie_transfo_m00zscore_flair_to_m00flair.yaml",
+		"/home/rdebroiz/anima/src/soda/.soda/aff_reg_olivier_atlas_on_m00t1.yaml",
+		"/home/rdebroiz/anima/src/soda/.soda/norm_msspi-flair_on_atlas-flair.yaml",
+		"/home/rdebroiz/anima/src/soda/pipe.yaml",
+		"/home/rdebroiz/anima/src/soda/.soda/nlin_reg_olivier_atlas_on_m00t1.yaml",
+		"/home/rdebroiz/anima/src/soda/.soda/rig_reg_m12flair_to_m00flair.yaml",
+		"/home/rdebroiz/anima/src/soda/.soda/rig_reg_mt1_to_mflair.yaml",
+		"/media/rdebroiz/pink-ext4/uspio-atlas/original-space/FLAIR/06020_FLAIR.nii",
+		"/home/rdebroiz/cluster/scalar/animaScalarRegistrationMachine.sh",
+		"/home/rdebroiz/mesTrucs/ms-scripts/spi/ms_anima_cmd.py",
+		"/media/rdebroiz/pink-ext4/msspi/workspace/13-002/M00_20131106/FLAIR/13-002-M00_TRANSFO-FLAIR-serie-on-SCALAR-ATLAS.xml",
+		"/media/rdebroiz/pink-ext4/atlas-uspio/scalar-space/FLAIR/FLAIR-normalized.txt",
+		"/media/rdebroiz/pink-ext4/msspi/workspace/08-006/M12_20141204/08-006-M12_DP.nrrd",
+		"/media/rdebroiz/pink-ext4/msspi/workspace/08-006/M00_20131122/08-006-M00_DP.nrrd",
+		"/home/rdebroiz/mesTrucs/ms-scripts/repair/ms_adc_fa_les.py",
+		"/home/rdebroiz/mesTrucs/ms-scripts/ms_patient_process.py",
+		"/home/rdebroiz/mesTrucs/ms-scripts/ms_dirtywm.py",
+		"/home/rdebroiz/mesTrucs/ms-scripts/ms_write_fa_and_adc_in_csv.py",
+		"/home/rdebroiz/mesTrucs/ms-scripts/repair/ms_process.py",
+		"/home/rdebroiz/anima/src/soda/.soda/echo3.yaml",
+		"/home/rdebroiz/tmp/test.py",
+		"/home/rdebroiz/anima/src/.git/COMMIT_EDITMSG",
+		"/media/rdebroiz/Storeva/.soda/echo2.yaml",
+		"/media/rdebroiz/Storeva/pipe.yaml",
+		"/media/rdebroiz/Storeva/.soda/echo3.yaml",
+		"/media/rdebroiz/Storeva/soda.log",
+		"/media/rdebroiz/Storeva/.soda/echo1.yaml",
+		"/home/rdebroiz/shanoir_bullshit_storm/soda.py",
+		"/media/rdebroiz/Storeva/aaa",
+		"/home/rdebroiz/shanoir_bullshit_storm/studies.yaml",
+		"/media/rdebroiz/Storeva/.soda/echo4.yaml",
+		"/home/rdebroiz/shanoir_bullshit_storm/dcmtonii.py",
+		"/home/rdebroiz/shanoir_bullshit_storm/niitonrrd.py",
+		"/media/rdebroiz/Storeva/MSSPI.wip/05-008/M12_20141110/05-008-M12_T2.nrrd",
+		"/home/rdebroiz/anima/src/soda/test.py",
+		"/media/rdebroiz/Storeva/dcmtoniitonrrd.py",
+		"/home/rdebroiz/anima/src/soda/log.txt",
+		"/local/rdebroiz/sep/MS-REPAIR/tex/main.tex",
+		"/local/rdebroiz/sep/MS-REPAIR/tex/main.Rnw",
+		"/local/rdebroiz/sep/MS-REPAIR/tex/FA_LESIONS/FA_LESIONS.tex",
+		"/local/rdebroiz/sep/MS-REPAIR/tex/FA_DAWM/FA_DAWM.tex",
+		"/local/rdebroiz/sep/MS-REPAIR/tex/ADC_NAWM/ADC_NAWM.tex",
+		"/local/rdebroiz/sep/MS-REPAIR/tex/ADC_LESIONS/ADC_LESIONS.tex",
+		"/local/rdebroiz/sep/MS-REPAIR/tex/ADC_DAWM/ADC_DAWM.tex",
+		"/local/rdebroiz/sep/MS-REPAIR/tex/FA_NAWM/FA_NAWM.tex",
+		"/home/rdebroiz/msprocess/groupcomparison.R",
+		"/local/rdebroiz/sep/MS-REPAIR/makegroups.py",
+		"/home/rdebroiz/msprocess/groupcomparison.Rnw",
+		"/local/rdebroiz/sep/MS-REPAIR/AdcDawmG1.csv",
+		"/home/rdebroiz/msprocess/tmp.py",
+		"/home/rdebroiz/tp_esir/src/tp_ihm_esir2/tex/tp3/tp3.tex",
+		"/local/rdebroiz/sep/MS-REPAIR/groupcomparison.tex",
+		"/local/rdebroiz/sep/MS-REPAIR/tex/ADC_DAWM2.tex",
+		"/local/rdebroiz/sep/MS-REPAIR/tex/ADC_DAWM.tex",
+		"/local/rdebroiz/sep/MS-REPAIR/AdcNawmG1.csv",
+		"/home/rdebroiz/msprocess/groupcomparison.Rnw.bckup",
+		"/local/rdebroiz/sep/MS-REPAIR/truc",
+		"/home/rdebroiz/shanoir/src/main/org/shanoir/nifti/converter/ConvertToNifti.java",
+		"/media/rdebroiz/Storeva/MSSPI/05-002/M00_20131218/SPECTRO/test.rda",
+		"/media/rdebroiz/Storeva/MSSPI/05-002/M00_20131218/SPECTRO/05-002-M00_SPECTRO.rda",
+		"/home/rdebroiz/.config/sublime-text-3/Packages/LaTeXing/LaTeXing.sublime-settings",
+		"/home/rdebroiz/.config/sublime-text-3/Packages/User/LaTeXing.sublime-settings",
+		"/local/rdebroiz/sep/MS-REPAIR/chouette",
+		"/local/rdebroiz/sep/MS-REPAIR/adcInDawmT3G1.csv",
+		"/local/rdebroiz/sep/MS-REPAIR/adcInDawmT2G1.csv",
+		"/local/rdebroiz/sep/MS-REPAIR/adcInDawmT1G1.csv",
+		"/home/rdebroiz/shanoir_bullshit_storm/data13-08.py",
+		"/home/rdebroiz/shanoir_bullshit_storm/retrieve_dcm.py",
+		"/home/rdebroiz/mesTrucs/ms-scripts/ms_make_fa_adc_groups.py",
+		"/home/rdebroiz/shanoir_bullshit_storm/spectro13.py",
+		"/home/rdebroiz/shanoir_bullshit_storm/data.yaml",
+		"/home/rdebroiz/shanoir_bullshit_storm/checkseg.py",
+		"/tmp/MrSpec.20131115.173141.rda",
+		"/tmp/MrSpec.20131121.185922.rda",
+		"/tmp/MrSpec.20141209.122003.rda",
+		"/home/rdebroiz/shanoir_bullshit_storm/get_spectro.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"None",
+			"return_codes_expr",
+			"pop",
+			"expr",
+			"to_evaluate",
+			"value",
+			"evaluation of",
+			"_re",
+			"PTIENTS",
+			"SC",
+			"scop_expr_set",
+			"coped_expr",
+			"to_process",
+			"file",
+			"_CMD",
+			"_NAME",
+			"_DESCRIPTION",
+			"dic",
+			"STUDY",
+			"builtins.builtins.",
+			"SODA_",
+			"SODA_SODA_",
+			"SODA_",
+			"SODA_SODA_",
+			"borg.",
+			"SODA_SODA_",
+			"borg.",
+			"soda.",
+			"SODA_STATE_DIR",
+			"DATA_STRUCTURE",
+			"SODA_STATE_DIR",
+			"SODA_LOG_FILENAME",
+			"MAXWORKERS",
+			"LOCK",
+			"SODA_STATE_DIR",
+			"SERIES",
+			"yaml_data",
+			"soda",
+			"gen_xml_aff_serie_m00dti_on_dti_atlas",
+			"apply_aff_serie_transfo_m00dti_on_dti_atlas",
+			"_",
+			"msspi",
+			"_",
+			"SCALAR_ATLAS",
+			"2",
+			",",
+			"'",
+			"FA",
+			"DTI",
+			".nrrd",
+			"SCALAR",
+			"ADC",
+			"FLAIR",
+			"FA",
+			"scalar",
+			"FLAIR/FLAIR-normalized",
+			"M00",
+			"DWI",
+			"T1",
+			"- ",
+			"atlas",
+			"atlas-uspio",
+			",",
+			"'",
+			",",
+			"'",
+			",",
+			"'",
+			"- ${",
+			"  - ${_ROOT",
+			"- ${",
+			"TRANSFO_T1_brain_masked_on_SCALAR_ATLAS",
+			"transfromations",
+			"FLAIR",
+			"M00",
+			"FLAIR",
+			"FLAIR_space_ref",
+			"_NAME:",
+			"_DESCRIPTION: \"-",
+			"'",
+			",",
+			"'",
+			"FLAIR",
+			"'",
+			"',",
+			"CMD",
+			"NAME",
+			"DESCRIPTION",
+			"SCOPE",
+			"DESCRIPTION:",
+			"- p",
+			"FLAIR",
+			"T1",
+			"is",
+			"==",
+			"rlock",
+			"lock",
+			"fot",
+			"SCOPED_EXPR_LIST",
+			"patient",
+			"SCOPE_EXPR_LIST",
+			"patient",
+			"futur",
+			", /",
+			" /",
+			"0, /",
+			"\".soda\"",
+			"CUR_SERIES",
+			"soda_log_flename",
+			"\"soda.log\"",
+			"[^}]",
+			"print",
+			"cur_serie",
+			"=",
+			"global",
+			"CUR_",
+			"=",
+			"global ",
+			"match",
+			"studies",
+			"patient",
+			"evaluate_yaml_exprssion",
+			"evaluate_yaml_expression",
+			"evaluate_yaml_exprssion",
+			"yaml_dic",
+			"!{",
+			"${",
+			"@{"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"présenteur",
+			"brosse",
+			"pinceau"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4871,
+								4871
+							]
+						],
+						"settings":
+						{
+							"parser": "markdown",
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
+							"tab_size": 2,
+							"target": "disk",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2080.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/rdebroiz/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1155,
+								1155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "soda.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4280,
+								4280
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1467.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "soda_process/soda_process.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4357,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2400,
+								2400
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 401.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "soda_yaml/test_expression_evaluation.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								948,
+								948
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8996,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								871,
+								871
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "soda_yaml/soda_yaml.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6696,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1159,
+								1159
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "soda.log",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8349,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7038,
+								7038
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1078.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "tests_data/pipes/test_data_struct.yaml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1328,
+								1328
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.521474588404,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CMakeEditor":
+	{
+		"height": 112.0
+	},
+	"output.exec":
+	{
+		"height": 245.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 100.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "soda.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/media/rdebroiz/pink-ext4/pipes/msspi-pipelines.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 279.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -60,7 +60,8 @@ def load_all_yaml(yaml_filename):
         logging.error("Loading %s: %s", yaml_filename, oserr)
         sys.exit(1)
     except (yaml.YAMLError) as yamlerr:
-        logging.error("Loading %s: %s:", yaml_filename, yamlerr)
+        logging.error("Loading %s: %s:", yaml_filename, yamlerr
+            )
         sys.exit(1)
     return list(yaml_docs)
 
@@ -172,7 +173,7 @@ def evaluate_yaml_expression(yaml_string, current_expr=''):
             logging.error("Attempt to evaluate non string expression "
                           "from yaml document: %s", yaml_string)
             raise
-            
+
         if(match_dolls):
             yaml_string = evaluate_static_expression(yaml_string,
                                                      match_dolls.group(1),

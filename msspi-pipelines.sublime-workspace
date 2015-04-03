@@ -615,11 +615,6 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/media/rdebroiz/pink-ext4/pipes",
-		"/media/rdebroiz/pink-ext4/pipes/backup"
-	],
 	"file_history":
 	[
 		"/home/rdebroiz/soda/soda.sublime-project",
@@ -964,6 +959,10 @@
 	{
 		"height": 0.0
 	},
+	"output.markdown":
+	{
+		"height": 100.0
+	},
 	"output.unsaved_changes":
 	{
 		"height": 100.0
@@ -990,6 +989,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"/media/rdebroiz/pink-ext4/pipes/msspi-pipelines.sublime-project"
+			]
 		],
 		"width": 380.0
 	},

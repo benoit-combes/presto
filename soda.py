@@ -209,9 +209,10 @@ def main(arguments):
             assert(scope is not "" and description is not ""
                    and name is not "" and cmd is not [])
             if scope not in exprs_for_scope.keys():
-                logging.critical("Bad pipeline configuration file.\n"
+                logging.critical("Bad pipe step (number %s).\n"
                                  "Each of your pipeline step need a __SCOPE__ "
                                  "feild with a value within: %s",
+                                 yaml_pipe_document.index(pipe_step_doc),
                                  exprs_for_scope.keys())
                 sys.exit(1)
         except (TypeError, AssertionError):
