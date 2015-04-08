@@ -12,26 +12,6 @@ except ImportError as err:
     sys.exit(1)
 
 
-class YamlEvaluationError(LookupError):
-    """
-    An error raised when the evaluation of ${statitc_key} or
-    ?{dynamic_key} faile
-    """
-    def __init__(self, arg):
-        super(YamlEvaluationError, self).__init__()
-        self.arg = arg
-
-
-class YamlLookUpError(LookupError):
-    """
-    An error raised when a
-    key is not found within a yaml dicionnary
-    """
-    def __init__(self, arg):
-        super(YamlLookUpError, self).__init__()
-        self.arg = arg
-
-
 def load_yaml(yaml_filename):
     """
     Load a single yaml document from a file in a thread safe context.
@@ -172,7 +152,7 @@ def evaluate_yaml_expression(yaml_string, current_expr=''):
             logging.error("Attempt to evaluate non string expression "
                           "from yaml document: %s", yaml_string)
             raise
-            
+
         if(match_dolls):
             yaml_string = evaluate_static_expression(yaml_string,
                                                      match_dolls.group(1),
