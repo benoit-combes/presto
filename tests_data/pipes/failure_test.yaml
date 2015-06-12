@@ -9,7 +9,7 @@ __CMD__:
 ---
 
 __DESCRIPTION__: "Invalid argument"
-__SCOPE__: __ROOT__
+__SCOPE__: SCOPE_2
 
 __NAME__: invalid_argument
 __CMD__: 
