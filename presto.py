@@ -49,6 +49,7 @@ Options:
 import os
 import logging
 from pprint import pformat
+import settings
 
 
 def clean():
@@ -67,19 +68,17 @@ def main(arguments):
         clean()
 
     # ##############################################################################
-    # we need this dir.
+    # make PRESTO_DIR
     # ##############################################################################
 
-    presto_dir = os.path.join(os.curdir, '.presto')
-    presto_log_file = os.path.join(presto_dir, 'presto.log')
-    os.makedirs(presto_dir, exist_ok=True)
+    os.makedirs(settings.PRESTO_DIR, exist_ok=True)
 
     # ##############################################################################
     # setup logs
     # ##############################################################################
 
     log_level = arguments['--log']
-    log.setup(presto_log_file, log_level)
+    log.setup(settings.PRESTO_LOG_FILENAME, log_level)
     logging.debug("cmd line arguments:\n%s", pformat(arguments))
 
     # ##############################################################################

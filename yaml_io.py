@@ -4,7 +4,7 @@ from log import quit_with_error
 try:
     import yaml
 except ImportError as err:
-    quit_with_error("Pesto requiered PyYaml to be installed, "
+    quit_with_error("Presto requiered PyYaml to be installed, "
                     "checkout requirement.txt.")
 
 

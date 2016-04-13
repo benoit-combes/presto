@@ -8,9 +8,12 @@ try:
 except ImportError:
     quit_with_error("Presto requiered path.py to be installed, "
                     "checkout requirement.txt.")
+import settings
+
 import sys
 import subprocess
 import logging
+import os
 
 
 class PipelineExecutor():
@@ -133,7 +136,8 @@ class ThreadedPipelineExecutor(PipelineExecutor):
         self._futures = dict()
         max_workers = self._max_workers * node.workers_modifier
 
-        node_filname = path.Path(".pesto" + node.name + ".yaml")
+        node_filname = path.Path(os.path.join(settings.PRESTO_DIR,
+                                 node.name + ".yaml"))
         if node_filname.exists():
             results = YamlIO.load_yaml(node_filname)
         else:
@@ -159,8 +163,8 @@ class ThreadedPipelineExecutor(PipelineExecutor):
                     is_ok = False
                 # show progression
                 with self._LOCK:
-                    self._print_progression(node.description, 
-                                            progression / len(node.scope.values), 
+                    self._print_progression(node.description,
+                                            progression / len(node.scope.values),
                                             is_ok)
                 # dump results.
                 YamlIO.dump_yaml(results, node_filname)
