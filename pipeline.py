@@ -40,20 +40,26 @@ class Pipeline():
         from data_model import DataModel
         evltr = Evaluator()
         for doc in documents:
-            if('__FILE__' in doc):
-                filename = path.Path(evltr.evaluate(doc['__FILE__']))
-                if(not filename.isabs()):
-                    filename = DataModel.document_path / filename
-                d = YamlIO.load_all_yaml(filename)
-                self._build_nodes_from_documents(d)
-            else:
-                try:
-                    node = Node(doc, self._graph.nodes())
-                except:
-                    quit_with_error("Unable to build node from: "
-                                    "{}".format(pformat(doc)))
-                self._graph.add_node(node.name)
-                self._nodes[node.name] = node
+            try:
+                if('__FILE__' in doc):
+                    filename = path.Path(evltr.evaluate(doc['__FILE__']))
+                    if(not filename.isabs()):
+                        filename = DataModel.document_path / filename
+                    d = YamlIO.load_all_yaml(filename)
+                    self._build_nodes_from_documents(d)
+                else:
+                    try:
+                        node = Node(doc, self._graph.nodes())
+                    except:
+                        quit_with_error("Unable to build node from: "
+                                        "{}".format(pformat(doc)))
+                    self._graph.add_node(node.name)
+                    self._nodes[node.name] = node
+            except TypeError:
+                quit_with_error("A '__FILE__' entry is missing in the given "
+                                "pipe.yaml file' \n(the file shouldn't "
+                                "end with '---')")
+
 
     def _build_edges(self):
         for node in self._nodes:

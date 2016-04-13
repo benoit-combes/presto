@@ -123,9 +123,9 @@ def main(arguments):
         try:
             scope_to_override[scope_regexp[0]] = scope_regexp[1]
         except IndexError:
-            log.quit_with_error("Malformed scope to override: "
-                                "'\033[91m{}\033[0m\033[1m'.\n"
-                                "Have to be: SCOPE_NAME:regexp".format(s))
+            log.quit_with_error("Malformed scope to override: '" +
+                                settings.FAIL + "{}".format(s)  + settings.ENDC + 
+                                settings.BOLD  + "'.\nHave to be: SCOPE_NAME:regexp")
 
     try:
         from data_model import DataModel

@@ -1,5 +1,6 @@
 from log import quit_with_error
 import logging
+import settings
 
 ROOT_NAME = "root"
 
@@ -38,9 +39,10 @@ class Node():
         try:
             self._scope = DataModel.scopes[scope_name]
         except KeyError:
-            logging.error("'\033[91m%s\033[0m\033[1m' is not "
-                          "a valid scope, must be in: '%s'",
-                          scope_name, DataModel.scopes.keys())
+            logging.error("'" + settings.FAIL + "{}".format(scope_name) + settings.ENDC +
+                          settings.BOLD + "' is not a valid scope, must be in: " +
+                          "'{}'".format(DataModel.scopes.keys()))
+
         try:
             self._cmd = yaml_doc['__CMD__']
         except KeyError:
@@ -71,7 +73,7 @@ class Node():
                 self._cmd_for_value[scope_value] = [evaluator.evaluate(arg)
                                                     for arg in self._cmd]
             except (TypeError, KeyError):
-                quit_with_error("Error in node {0}.".format(self._name))
+                quit_with_error("Error in node {}.".format(self._name))
 
     def __str__(self):
         return ("[--\nname: {0},"

@@ -4,6 +4,7 @@ from pprint import pformat
 
 from log import quit_with_error
 from scope import Scope
+import settings
 
 try:
     import path
@@ -108,10 +109,13 @@ class DataModel(metaclass=MetaDataModel):
                 DataModel.scopes = dict()
             scope_dict = yaml_doc['__SCOPES__']
             # check if scope to override are ok.
+
             for scope in scope_to_override:
                 if scope not in scope_dict:
-                    quit_with_error("Unable to find overrided scope "
-                                    "'\033[91m{}\033[0m\033[1m'".format(scope))
+                    quit_with_error("Unable to find overrided scope '" +
+                                    settings.FAIL + "{}".format(scope) + settings.ENDC
+                                    + settings.BOLD)
+
             scope_dict.update(scope_to_override)
             DataModel._make_scopes(scope_dict)
             logging.debug("Scopes:\n%s", pformat(DataModel.scopes))

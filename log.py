@@ -1,5 +1,6 @@
 import logging
 import sys
+import settings
 
 
 def quit_with_error(msg):
@@ -29,9 +30,10 @@ def setup(log_file, lvl):
     console = logging.StreamHandler()
     console.setLevel(logging.ERROR)
     # set a format which is simpler for console use
-    ENDC = '\033[0m'
-    BOLD = '\033[1m'
-    formatter = logging.Formatter(BOLD + '[%(levelname)s]: %(message)s\n' + ENDC)
+
+    formatter = logging.Formatter(settings.BOLD +
+                                  '[%(levelname)s]: %(message)s\n' +
+                                  settings.ENDC)
     # tell the handler to use this format
     console.setFormatter(formatter)
     # add the handler to the root logger

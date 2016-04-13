@@ -3,13 +3,13 @@ from concurrent import futures
 from concurrent.futures import ThreadPoolExecutor
 from evaluator import Evaluator
 from yaml_io import YamlIO
+import settings
+
 try:
     import path
 except ImportError:
     quit_with_error("Presto requiered path.py to be installed, "
                     "checkout requirement.txt.")
-import settings
-
 import sys
 import subprocess
 import logging
@@ -20,11 +20,6 @@ class PipelineExecutor():
     _pipeline = None
     _print_only = False
     _force_execution = False
-
-    OKGREEN = '\033[92m'
-    FAIL = '\033[91m'
-    ENDC = '\033[0m'
-    RETURN = '\033[K\r'
 
     @property
     def print_only(self):
@@ -44,14 +39,14 @@ class PipelineExecutor():
 
     def _print_progression(self, desc, prog, is_ok):
         if is_ok:
-            color = self.OKGREEN
+            color = settings.OKGREEN
         else:
-            color = self.FAIL
+            color = settings.FAIL
 
         print("{0}{1}: {2:.0%}{3}".format(color,
                                           desc,
                                           prog,
-                                          self.ENDC + self.RETURN), end="")
+                                          settings.ENDC + settings.RETURN), end="")
         sys.stdout.flush()
 
     def execute(self, node_name=None):
@@ -61,8 +56,9 @@ class PipelineExecutor():
             try:
                 node = self._pipeline.nodes[node_name]
             except KeyError:
-                quit_with_error("Unable to find node '\033[91m{}\033[0m\033[1m'"
-                                " in pipeline".format(node_name))
+                quit_with_error("Unable to find node '" + 
+                                settings.FAIL + "{}".format(node_name) + settings.ENDC +
+                                settings.BOLD + "'.\n in pipeline")
             if self._print_only:
                 self._print_one_node(node)
             else:
@@ -78,9 +74,7 @@ class PipelineExecutor():
 
     def _print_one_node(self, node):
         if self._print_only:
-            ENDC = '\033[0m'
-            BOLD = '\033[1m'
-            print(BOLD, "\nExecuting: ", node.name, ENDC)
+            print(settings.BOLD, "\nExecuting: ", node.name, settings.ENDC)
             for scope_value in node.scope.values:
                 evaluator = Evaluator(scope_value)
                 cmd_str = evaluator.evaluate(" ".join(node.cmd))
