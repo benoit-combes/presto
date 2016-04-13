@@ -6,7 +6,7 @@ from yaml_io import YamlIO
 try:
     import path
 except ImportError:
-    quit_with_error("Pesto requiered path.py to be installed, "
+    quit_with_error("Presto requiered path.py to be installed, "
                     "checkout requirement.txt.")
 import sys
 import subprocess
@@ -46,9 +46,9 @@ class PipelineExecutor():
             color = self.FAIL
 
         print("{0}{1}: {2:.0%}{3}".format(color,
-                                       desc,
-                                       prog,
-                                       self.ENDC + self.RETURN), end="")
+                                          desc,
+                                          prog,
+                                          self.ENDC + self.RETURN), end="")
         sys.stdout.flush()
 
     def execute(self, node_name=None):

@@ -8,7 +8,7 @@ from scope import Scope
 try:
     import path
 except ImportError:
-    quit_with_error("Pesto requiered path.py to be installed, "
+    quit_with_error("Presto requiered path.py to be installed, "
                     "checkout requirement.txt.")
 
 
@@ -124,7 +124,7 @@ class DataModel(metaclass=MetaDataModel):
     @classmethod
     def _set_root(cls, root):
         from evaluator import Evaluator
-        evltr = Evaluator()        
+        evltr = Evaluator()
         root = evltr.evaluate(root)
         cls.root = path.Path(root).abspath()
         try:

@@ -7,7 +7,7 @@ def quit_with_error(msg):
     sys.exit(1)
 
 
-def setup(lof_file, lvl):
+def setup(log_file, lvl):
     # assuming loglevel is bound to the string value obtained from the
     # command line argument. Convert to upper case to allow the user to
     # specify --log=DEBUG or --log=debug
@@ -20,7 +20,7 @@ def setup(lof_file, lvl):
         print(err)
         sys.exit(1)
 
-    logging.basicConfig(filename=lof_file,
+    logging.basicConfig(filename=log_file,
                         level=numeric_level,
                         format='%(levelname)s @ %(asctime)s '
                         '->\n %(message)s\n',
@@ -41,4 +41,4 @@ def setup(lof_file, lvl):
                  "######################################################\n"
                  "######################################################\n"
                  "######################################################\n"
-                 "\nStart SODA")
+                 "\nStart Presto")

@@ -69,6 +69,44 @@ class Pipeline():
         return have_cycle
 
     def _thin(self):
+        """
+        Remove all edges between one node and one of his parents
+        if this parent is already one of the ancestors of any other of his
+        parents.
+
+        example:
+
+                 A
+                 *
+               /   \
+              o     o
+            B *o----* C  
+             /      /
+            o      /
+           D *    / 
+              \  /
+               oo
+               *
+               E
+
+               becomes   
+
+              A *
+                |
+                o
+              C *
+             /  |
+            /   |
+           o    |
+        B *     |
+           \    |
+            o   |
+           D *  |
+              \ |
+               oo
+              E *
+
+        """
         for n in self._graph.nodes():
             for cur_p in self._graph.predecessors(n):
                 for p in self._graph.predecessors(n):

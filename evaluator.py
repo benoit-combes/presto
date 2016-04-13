@@ -116,8 +116,6 @@ class Evaluator():
         try:
             return self._helpers[key]
         except KeyError:
-            RED = '\033[91m'
-            ENDC = '\033[0m'
             logging.error("unable to find any key '\033[91m%s\033[0m\033[1m' "
                           "in configuration file",
                           key)

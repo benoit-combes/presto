@@ -51,6 +51,10 @@ import logging
 from pprint import pformat
 
 
+def clean():
+    print("clean")
+
+
 def main(arguments):
     import log
 
@@ -59,8 +63,8 @@ def main(arguments):
     # clean ?
     # ##############################################################################
 
-    # if arguments['--clean']:
-    #     clean()
+    if arguments['--clean']:
+        clean()
 
     # ##############################################################################
     # we need this dir.
@@ -108,7 +112,7 @@ def main(arguments):
     try:
         import path
     except ImportError:
-        log.quit_with_error("Pesto requiered path.py to be installed, "
+        log.quit_with_error("Presto requiered path.py to be installed, "
                             "checkout requirement.txt.")
 
     yaml_document_path = path.Path(arguments['<pipe.yaml>']).abspath()
