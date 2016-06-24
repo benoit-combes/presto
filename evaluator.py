@@ -91,6 +91,8 @@ class Evaluator():
             scope_name = match_redirect.group(2)
             scope = DataModel.scopes[scope_name]
             scope_value = self.evaluate(scope.expression)
+            scope_value = re.match(scope_value, self._cur_scope_value).group(0)
+
         files_matching_scope_value = [f for f in DataModel.files
                                       if re.search(scope_value, f)]
         evaluated_value = set()

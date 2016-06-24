@@ -81,9 +81,12 @@ class PipelineExecutor():
                 print(cmd_str)
 
     def _execute_one_scope_value(self, node, scope_value, results):
-        if not self._force_execution and scope_value in results:
-            if not results[scope_value]:
-                return 0
+        try:
+            if not self._force_execution and scope_value in results:
+                if not results[scope_value]:
+                    return 0
+        except TypeError: # TODO results is probably empty
+            pass
 
         evaluator = Evaluator(scope_value)
         cmd = [evaluator.evaluate(arg) for arg in node.cmd]

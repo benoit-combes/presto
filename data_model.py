@@ -14,7 +14,7 @@ except ImportError:
 
 
 # char to escape in a regular expression to be taken as literal.
-TO_ESCAPE_FOR_RE = r"()[]{}*+?|.^$-\\"
+TO_ESCAPE_FOR_RE = r"()[]{}*+?|.^$\\"
 # char to escaped inside [] in a regular expression to be taken as literal.
 TO_ESCAPE_INSIDE_BRACKET_FOR_RE = r"\^\-\]\\"
 
